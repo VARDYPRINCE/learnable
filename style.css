@@ -1,0 +1,260 @@
+/* body section begins here */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+ul li{
+    list-style: none;
+    margin: 15px;
+}
+
+h3{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+h4{
+    font-family: Poppins;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    width: 910px;
+    height: 230px;
+    top: 465px;
+    left: 100px;font-family: Poppins;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 72px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+img{
+    position: relative;
+    bottom: 540px;
+    right: 200px;
+    width: 627px;
+}
+
+.pahh{
+    color: #44C3EBCC;
+    width: 374px;
+    height: 45px;
+    top: 407px;
+    left: 100px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.bodd{
+    background-color: white;
+    margin: 90px auto;
+    width: 1919px;
+    height: 1080px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.ul-list{
+    display: flex;
+}
+
+.btn-n{
+    display: flex;
+    margin: 15px;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn{
+    padding: 0 10px 0 10px;
+    border-radius: 20px;
+    background-color: orange;
+    font-family: Poppins;
+    font-size: 24px;
+    border: 0;
+    line-height: 36px;
+    /* text-align: left; */
+    color: white;
+    width: 193px;
+    height: 76px;
+    top: 754px;
+    left: 102px;
+    border-radius: 20px;
+}
+
+.sec-t{
+    overflow: auto;
+}
+
+.img-c{
+    float: right;
+    margin: 10px;
+}
+
+.text-div{
+    width: 350px;
+    margin-left: 100px;
+    font-size: large;
+    line-height: 30px;
+}
+
+.img-div{
+    width: 1919px;
+    height: 1080px;
+    left: 1px;  
+    background-image: url(img/photo_2023-12-12_16-15-59.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 90px auto;
+    
+}
+
+.tain{
+    width: 1160px;
+    height: 846px;
+    border-radius: 24px;
+    background: #FFFFFF;
+    margin: auto;
+    position: relative;
+    top: 120px;
+}
+
+.main-logo{
+    width: 580px;
+    height: 846px;
+    left: 580px;
+    position: relative;
+    top: 0px;
+}
+
+.sign-btns{
+    display: flex;
+    color: #333;
+    font-family: Avenir;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.125rem;
+    width: 580px;
+    height: 846px;
+    left: 580px;  
+  }
+
+  .logf{
+    display: flex;
+  width: 25.125rem;
+  height: 4.5rem;
+  padding: 1.28125rem 3.5rem 1.21875rem 3.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.5rem;
+  border: 1px solid #333;
+  background: #FFF;
+  }
+
+  .logg{
+    display: flex;
+  width: 25.125rem;
+  height: 4.5rem;
+  padding: 1.28125rem 4.4375rem 1.34375rem 4.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.5rem;
+  border: 1px solid #333;
+  background: #FFF;
+  }
+  .loga{
+    display: flex;
+  width: 25.125rem;
+  height: 4.5rem;
+  padding: 1.1875rem 4.0625rem 1.25rem 4.125rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.5rem;
+  border: 1px solid #333;
+  background: #FFF;
+  }
+  .logt{
+    display: flex;
+  width: 25.125rem;
+  height: 4.5rem;
+  padding: 1.1875rem 3.8125rem 1.25rem 3.875rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.5rem;
+  border: 1px solid #333;
+  background: #FFF;
+  }
+  .loge{
+    display: flex;
+  width: 25.125rem;
+  height: 4rem;
+  padding: 0.9375rem 4.5rem 1rem 4.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.5rem;
+  border: 1px solid #333;
+  background: #FFF;
+  }
+  .logp{
+    display: flex;
+  width: 25.125rem;
+  height: 4rem;
+  padding: 0.9375rem 4.15625rem 1rem 4.15625rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.5rem;
+  border: 1px solid #333;
+  background: #FFF;
+  }
+
+  .imgg{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    bottom: 230px;
+    left: 0px;
+  }
+
+  .third{
+    width: 580px;
+    height: 846px;
+    left: 380px;
+    position: relative;
+    bottom: 730px;
+  }
